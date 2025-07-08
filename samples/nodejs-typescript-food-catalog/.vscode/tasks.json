@@ -2,13 +2,15 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "TTK",
+      "label": "Start connector",
       "dependsOn": [
         "Ensure env files",
         "Ensure DevTunnel",
         "Provision",
         "Start Azurite emulator",
-        "Deploy"
+        "Deploy",
+        "Start TS compiler (watch)",
+        "Start Azure Function"
       ],
       "dependsOrder": "sequence"
     },
@@ -69,10 +71,7 @@
       "command": "provision",
       "args": {
         "env": "local"
-      },
-      "dependsOn": [
-        "Ensure DevTunnel"
-      ]
+      }
     },
     {
       "label": "Start Azurite emulator",
@@ -96,10 +95,7 @@
       },
       "options": {
         "cwd": "${workspaceFolder}"
-      },
-      "dependsOn": [
-        "Provision"
-      ]
+      }
     },
     {
       "label": "Deploy",
@@ -107,41 +103,21 @@
       "command": "deploy",
       "args": {
         "env": "local"
-      },
-      "dependsOn": [
-        "Start Azurite emulator"
-      ]
+      }
     },
     {
       "type": "shell",
-      "label": "Run watch",
+      "label": "Start TS compiler (watch)",
       "command": "npm run watch",
       "isBackground": true,
       "problemMatcher": "$tsc-watch"
     },
     {
       "type": "func",
-      "label": "func: host start",
+      "label": "Start Azure Function",
       "command": "host start",
       "problemMatcher": "$func-node-watch",
-      "isBackground": true,
-      "dependsOn": [
-        "Run watch"
-      ]
-    },
-    {
-      "label": "Terminate All Tasks",
-      "command": "echo ${input:terminate}",
-      "type": "shell",
-      "problemMatcher": []
-    }
-  ],
-  "inputs": [
-    {
-      "id": "terminate",
-      "type": "command",
-      "command": "workbench.action.tasks.terminate",
-      "args": "terminateAll"
+      "isBackground": true
     }
   ]
 }
