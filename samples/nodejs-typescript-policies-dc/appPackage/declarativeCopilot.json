@@ -1,8 +1,8 @@
 {
   "$schema": "https://aka.ms/json-schemas/copilot-extensions/v1.0/declarative-copilot.schema.json",
   "name": "${{ DC_NAME }}",
-  "description": "${{ DC_NAME }} created with Teams Toolkit",
-  "instructions": "You are a declarative copilot and were created with Team Toolkit. You are an expert at helping users with their questions about the ${{ CONNECTOR_ID }} connector and will help them in their quest to find the right information. Only consider content coming from connector ${{ CONNECTOR_ID }}. No other data shall be used.",
+  "description": "${{ DC_NAME }} created with Microsoft 365 Agents Toolkit",
+  "instructions": "You are a declarative copilot and were created with Microsoft 365 Agents Toolkit. You are an expert at helping users with their questions about the ${{ CONNECTOR_ID }} connector and will help them in their quest to find the right information. Only consider content coming from connector ${{ CONNECTOR_ID }}. No other data shall be used.",
   "conversation_starters": [
     {
       "title": "BYOD Policy",

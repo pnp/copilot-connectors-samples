@@ -20,7 +20,7 @@
   },
   "description": {
     "short": "Policy Management Copilot connector",
-    "full": "Teams Toolkit sample for a Policy Management system using Copilot connector"
+    "full": "Microsoft 365 Agents Toolkit sample for a Policy Management system using Copilot connector"
   },
   "accentColor": "#FFFFFF",
   "composeExtensions": [],

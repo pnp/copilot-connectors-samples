@@ -1,8 +1,8 @@
-# Ingest markdown content from a custom API using C#, .NET and Teams Toolkit for Visual Studio
+# Ingest markdown content from a custom API using C#, .NET and Microsoft 365 Agents Toolkit for Visual Studio
 
 ## Summary
 
-This sample project uses Teams Toolkit for Visual Studio to simplify the process of creating a [Copilot connector](https://learn.microsoft.com/graph/connecting-external-content-connectors-overview) that ingests data from a custom API to Microsoft Graph. It provides an end to end example of creating the connector, ingesting content and refreshing the ingested content on a schedule. It also includes the [simplified admin experience](https://learn.microsoft.com/graph/connecting-external-content-deploy-teams) which means that admins can toggle the connector on and off from the Microsoft Teams admin center.
+This sample project uses Microsoft 365 Agents Toolkit for Visual Studio to simplify the process of creating a [Copilot connector](https://learn.microsoft.com/graph/connecting-external-content-connectors-overview) that ingests data from a custom API to Microsoft Graph. It provides an end to end example of creating the connector, ingesting content and refreshing the ingested content on a schedule. It also includes the [simplified admin experience](https://learn.microsoft.com/graph/connecting-external-content-deploy-teams) which means that admins can toggle the connector on and off from the Microsoft Teams admin center.
 
 ![Markdown content from custom API displayed in Microsoft Search](./assets/content.png)
 
@@ -53,7 +53,7 @@ You can run this sample in two ways:
 ### 3. Prepare Teams App Dependencies
 
 - In Solution Explorer, right-click the `GraphDocsConnector` Azure Functions project
-- Expand the `Teams Toolkit` menu and select `Prepare Teams App Dependencies`
+- Expand the `Microsoft 365 Agents Toolkit` menu and select `Prepare Teams App Dependencies`
 - When prompted, sign in to your Microsoft 365 tenant
 - Wait for all tasks to complete
 
@@ -133,7 +133,7 @@ When the process is complete you will see a table confirming that the connection
 ### 2. Provision resources
 
 - In Solution Explorer, right-click the `GraphDocsConnector` Azure Functions project
-- Expand the `Teams Toolkit` menu and select `Provision in the cloud...`
+- Expand the `Microsoft 365 Agents Toolkit` menu and select `Provision in the cloud...`
 - In the `Provision` dialog, enter the following and select `Provision`
   - **Account**: Select an account which is associated with an active subscription
   - **Subscription**: Select an active subscription from the list
@@ -144,7 +144,7 @@ When the process is complete you will see a table confirming that the connection
 ### 3. Deploy code
 
 - In Solution Explorer, right-click the `GraphDocsConnector` Azure Functions project
-- Expand the `Teams Toolkit` menu and select `Deploy to the Cloud`
+- Expand the `Microsoft 365 Agents Toolkit` menu and select `Deploy to the Cloud`
 - In the warning prompt, select `Deploy` to deploy the function code
 
 ### 4. Enable Copilot connector
@@ -200,7 +200,7 @@ This sample shows how to ingest data from a custom API into your Microsoft 365 t
 
 The sample illustrates the following concepts:
 
-- simplify debugging and provisioning of resources with Teams Toolkit for Visual Studio
+- simplify debugging and provisioning of resources with Microsoft 365 Agents Toolkit for Visual Studio
 - support the ability to toggle the connection status in the Microsoft Teams admin center
 - create external connection schema
 - support full ingestion of data

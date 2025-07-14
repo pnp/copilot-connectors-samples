@@ -2,12 +2,12 @@
     {
       "name": "pnp-graph-connector-dotnet-csharp-graphdocs-ttk",
       "source": "pnp",
-      "title": "Ingest markdown content from a custom API using C#, .NET and Teams Toolkit for Visual Studio",
-      "shortDescription": "This sample project uses Teams Toolkit to simplify the process of creating a Copilot connector that ingests markdown content from a custom API to Microsoft Graph",
+      "title": "Ingest markdown content from a custom API using C#, .NET and Microsoft 365 Agents Toolkit for Visual Studio",
+      "shortDescription": "This sample project uses Microsoft 365 Agents Toolkit to simplify the process of creating a Copilot connector that ingests markdown content from a custom API to Microsoft Graph",
       "url": "https://github.com/pnp/copilot-connectors-samples/tree/main/samples/dotnet-csharp-graphdocs-ttk",
       "downloadUrl": "https://pnp.github.io/download-partial/?url=https://github.com/pnp/copilot-connectors-samples/tree/main/samples/dotnet-csharp-graphdocs-ttk",
       "longDescription": [
-        "This sample project uses Teams Toolkit for Visual Studio to simplify the process of creating a Copilot connector that ingests markdown content from a custom API to Microsoft Graph. It provides an end to end example of creating the connector, ingesting content and refreshing the ingested content on a schedule. It also includes the simplified admin experience which means that admins can toggle the connector on and off from the Microsoft Teams admin center."
+        "This sample project uses Microsoft 365 Agents Toolkit for Visual Studio to simplify the process of creating a Copilot connector that ingests markdown content from a custom API to Microsoft Graph. It provides an end to end example of creating the connector, ingesting content and refreshing the ingested content on a schedule. It also includes the simplified admin experience which means that admins can toggle the connector on and off from the Microsoft Teams admin center."
       ],
       "creationDateTime": "2024-05-03",
       "updateDateTime": "2024-08-13",
@@ -15,7 +15,8 @@
         "Copilot connectors",
         "Microsoft Graph",
         "Microsoft 365 Copilot",
-        "TeamsToolkit"
+        "TeamsToolkit",
+        "Microsoft 365 Agents Toolkit"
       ],
       "metadata": [
         {
@@ -73,8 +74,8 @@
           "url": "https://learn.microsoft.com/graph/connecting-external-content-build-quickstart"
         },
         {
-          "name": "Teams Toolkit for Visual Studio",
-          "description": "Learn more about the Teams Toolkit for Visual Studio.",
+          "name": "Microsoft 365 Agents Toolkit for Visual Studio",
+          "description": "Learn more about the Microsoft 365 Agents Toolkit for Visual Studio.",
           "url": "https://learn.microsoft.com/microsoftteams/platform/toolkit/toolkit-v4/teams-toolkit-fundamentals-vs"
         },
         {
