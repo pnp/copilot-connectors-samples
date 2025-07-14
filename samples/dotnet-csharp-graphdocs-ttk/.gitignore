@@ -264,7 +264,7 @@ paket-files/
 __pycache__/
 *.pyc
 
-# Teams Toolkit
+# Microsoft 365 Agents Toolkit
 env/.env.local
 env/.env.local.user
 env/.env.dev
