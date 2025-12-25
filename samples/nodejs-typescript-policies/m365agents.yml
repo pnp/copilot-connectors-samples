@@ -1,7 +1,11 @@
 # yaml-language-server: $schema=https://aka.ms/teams-toolkit/v1.5/yaml.schema.json
+
 # Visit https://aka.ms/teamsfx-v5.0-guide for details on this file
 # Visit https://aka.ms/teamsfx-actions for details on actions
 version: v1.5
+
+additionalMetadata:
+  sampleTag: graph-connectors-samples:nodejs-typescript-policies
 
 environmentFolderPath: ./env
 
@@ -75,4 +79,3 @@ deploy:
       # You can replace it with your existing Azure Resource id
       # or add it to your environment variable file.
       resourceId: ${{AZURE_FUNCTION_RESOURCE_ID}}
-projectId: 992da289-9631-4c16-a60d-02bd68b0eb98
