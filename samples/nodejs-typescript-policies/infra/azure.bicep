@@ -91,7 +91,7 @@ resource functionApp 'Microsoft.Web/sites@2021-02-01' = {
         }
         {
           name: 'WEBSITE_NODE_DEFAULT_VERSION'
-          value: '~18' // Set NodeJS version to 18.x
+          value: '~20' // Set NodeJS version to 20 as 18 is not supported any longer
         }
         {
           name: 'APPINSIGHTS_INSTRUMENTATIONKEY'
